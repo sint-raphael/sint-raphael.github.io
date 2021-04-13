@@ -1631,6 +1631,16 @@ more padding on the right to avoid overlap
     }
 }
 
+/*
+    Component: speaker
+    ---
+    For when a speaker is named in the story.
+*/
+
+.c-speaker {
+    color: #999;
+}
+
 /*------------------------------------*\
 #UTILITIES
 \*------------------------------------*/
