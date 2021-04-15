@@ -1636,9 +1636,19 @@ more padding on the right to avoid overlap
     ---
     For when a speaker is named in the story.
 */
-
 .c-speaker {
     color: #999;
+}
+
+/*
+    Component: story picture
+    ---
+    To add a border around all images for the storyline
+*/
+.c-story__picture {
+    /* border: 3px solid var(--global-color-alpha); */
+    /* border: 4px solid var(--global-color-neutral-xxx-dark); */
+    border-radius: 10px;
 }
 
 /*------------------------------------*\
