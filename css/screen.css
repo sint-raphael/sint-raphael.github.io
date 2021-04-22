@@ -4,15 +4,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
 
 /* @font-face {
-    font-family: "Inter Web";
+    font-family: "Merienda";
     font-weight: 400;
-    src: url("../fonts/Inter-Regular.woff2") format("woff2")
+    src: url("../fonts/Merienda-Regular.ttf") format("ttf")
 }
 
 @font-face {
-    font-family: "Inter Web";
-    font-weight: 600;
-    src: url("../fonts/Inter-SemiBold.woff2") format("woff2")
+    font-family: "Merienda";
+    font-weight: 700;
+    src: url("../fonts/Merienda-Bold.ttf") format("ttf")
 } */
 
 /*------------------------------------*\
@@ -122,7 +122,7 @@ html {
     color: var(--global-page-color);
     font-size: 16px;
     line-height: 1.5;
-    font-family: 'Merienda', cursive;
+    font-family: 'Merienda', fantasy, cursive;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
