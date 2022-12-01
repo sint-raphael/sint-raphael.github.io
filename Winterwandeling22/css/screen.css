@@ -872,6 +872,15 @@ input::placeholder {
 }
 
 /*
+    Component: Footer Logos
+    ---
+    To add a border around all images for the storyline
+*/
+.c-footer__logo {
+    width: 20%;
+}
+
+/*
     Component: Forms
     ---
     Everything form related here
@@ -1673,6 +1682,10 @@ more padding on the right to avoid overlap
     border-radius: 0px 0px 10px 10px ;
 }
 
+
+
+
+
 /*------------------------------------*\
 #UTILITIES
 \*------------------------------------*/
@@ -1778,6 +1791,7 @@ more padding on the right to avoid overlap
 .u-whitespace-nowrap {
     white-space: nowrap;
 }
+
 
 /*
     Utility: Widths
