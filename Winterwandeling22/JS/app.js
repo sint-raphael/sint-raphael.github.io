@@ -1,4 +1,5 @@
 let visits;
+let entireVisitPlaceholder;
 let endpointnamespace = "sint-raphael.github.io";
 let endpointkey = "Winterwandeling22";
 
@@ -11,8 +12,17 @@ function liveViews(response) {
 
 const getData = (json) => {
 	console.log(json);
-	console.log("This page got " + json.value + " views")
-    visits.innerText = json.value;
+
+	if(json.value != null){
+		console.log("This page got " + json.value + " views")
+		visits.innerText = json.value;
+	}
+	else{
+		console.log("The key used to check the amount of visits is either non existend or expired.")
+		if(entireVisitPlaceholder != null){
+			entireVisitPlaceholder.innerText = "Op dit moment kunnen we het aantal bezoeken niet weergeven. Probeer het later opnieuw.";
+		}
+	}
 };
 
 
@@ -30,6 +40,7 @@ function showVisits() {
 
 const init = () => {
 	visits = document.getElementById('visits');
+	entireVisitPlaceholder = document.getElementById('entireVisitPlaceholder');
 	if(visits != null){
 		showVisits();
 		
