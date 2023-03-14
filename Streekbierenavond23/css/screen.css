@@ -129,6 +129,7 @@ html {
 
     background-image: url("../../img/png/Background_streekbieren_Icons.png");
     background-size: 200%;
+    background-blend-mode: overlay;
 }
 
 @media screen and (min-width: 27em){
