@@ -1,7 +1,7 @@
 let visits;
 let entireVisitPlaceholder;
 let endpointnamespace = "sint-raphael.github.io";
-let endpointkey = "Streekbierenavond23";
+let endpointkey = "Streekbierenavond23_2";
 
 
 function liveViews(response) {
