@@ -18,12 +18,16 @@
         
         <!-- Page counter -->
         <!-- <script src="../Winterwandeling22/JS/app.js" defer></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="../Streekbierenavond23/JS/style.js" defer></script>
         <script src="https://api.countapi.xyz/hit/sint-raphael.github.io/Streekbierenavond23_2" async></script>
 
         <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="../Streekbierenavond23/css/screen.css">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
     </head>
     <body>
         <header class="o-row o-row--nav">
@@ -105,7 +109,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    Bavik Super Pils
+                                                    Stella Artois
                                                 </td>
                                                 <td class="u-whitespace-nowrap">1 Jeton</td>
                                             </tr>
@@ -320,7 +324,7 @@
                         </div>
                     </article>
 
-                    <h2 class="c-card__footer">
+                    <h2 id="Streekbierenboekje" class="c-card__footer">
                         Streekbierenboekje
                     </h2>
 
@@ -345,13 +349,17 @@
                                             </tr>
                                             <tr>
                                                 <td class="u-pb-sm">
-                                                    <h5>Bavik Super Pils</h5>
-                                                    <span class="c-comment u-text-sm">Brouwerij de Brabandere</span>
+                                                    <h5>Stella Artois</h5>
+                                                    <span class="c-comment u-text-sm">Brouwerij Stella Artois - Leuven</span>
                                                     <br>
-                                                    Bavik Super Pils heeft zijn unieke smaak en aroma te danken aan zijn bijzondere brouwproces. De
-                                                    pils wordt tijdens het brouwproces niet verdund waardoor we een volmondige smaak garanderen.
-                                                    Bovendien worden enkel aromahoppen gebruikt, wat zorgt voor een verfijnde bittere smaak en een
-                                                    verfrissend aroma.
+                                                    Stella Artois kan bogen op een rijke geschiedenis die teruggaat tot het Leuven van 1366.  ​
+
+                                                    Meer dan 600 jaar Belgische brouwexpertise, 
+                                                    vertaald in een prachtig gebalanceerde pils. 
+
+                                                    Smaakvol en verfrissend, gebrouwen om van te genieten. 
+                                                    De kunst en wetenschap om te genieten van Stella Artois gaan van de meest verfijnde ingrediënten en de speciaal
+                                                    vervaardigde chalice waarin het wordt geserveerd, tot het veeleisende uitschenkritueel in negen stappen.​
                                                     <br>
                                                     25cl – 5.2%
                                                 </td>
@@ -657,7 +665,16 @@
                         </div>
                     </article>
 
-
+                    <article class="o-section o-section--xl">
+                        <div class="o-layout o-layout--gutter-xl o-layout--justify-center o-layout--align-center  o-layout--row-reverse">
+                            <div class="o-layout__item u-2-of-3-bp2 u-1-of-2-bp3">
+                                <h5 class="">
+                                    Download hier het streekbierenboekje in pdf vorm.
+                                </h5>
+                                <a href="/Streekbierenavond23/Streekbierenboekje-2023.pdf"><button class="c-button_download" style="width:100%"><i class="fa fa-download"></i> Download</button></a>
+                            </div>
+                        </div>
+                    </article>
 
                     <!-- extra whitespace -->
                     <article class="o-section o-section--xl">
@@ -710,7 +727,7 @@
                 
             </div>
 
-
+            <button id="c-button_section" class="c-button_download c-button_floating"><i class="fa-solid fa-angles-down fa-beat"></i></button>
         </main>
 	</body>
 </html>

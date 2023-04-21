@@ -23,8 +23,8 @@
     /* Global colors */
     --global-color-alpha-light: #4F95FF;
     /* --global-color-alpha: #E62429; */
-    --global-color-alpha: #DEB24E;
-    --global-color-alpha-dark: #2E77E6;
+    --global-color-alpha: #deb24e;
+    --global-color-alpha-dark: #c6a048;
     --global-color-alpha-x-dark: #9F0013;
     --global-color-alpha-transparent: #9F0013bf;
     --global-color-alpha-x-transparent: #9F00134d;
@@ -701,6 +701,38 @@ input::placeholder {
         padding-bottom: 17em;
     }
 }
+
+/*
+    Component: Download Button
+    ---
+    Download Button
+*/
+
+.c-button_download {
+    
+    background-color: var(--global-color-alpha);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+
+.c-button_floating {
+    position: fixed;
+    bottom: 10px;
+    right: 5%;
+    margin-left: -104.5px; /*104.5px is half of the button's width*/
+}
+
+.c-btn_download:hover{
+    background-color: var(--global-color-alpha-dark);
+}
+
+
+
 
 /*
     Component: header
